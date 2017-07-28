@@ -131,7 +131,7 @@ var psqiInsomnia = "";
 function psqiInsomniaFunc(){
   if (psqiInsomnia == "Not during the past month") {
     psqiInsomnia = 4;
-  } else if (psqiInsomnia == "Less than once a week ") {
+  } else if (psqiInsomnia == "Less than once a week") {
     psqiInsomnia = 3;
   } else if (psqiInsomnia == "Once or twice a week") {
     psqiInsomnia = 2;
@@ -145,7 +145,7 @@ var psqiSegmentedTime = "";
 function psqiSegmentedTimeFunc(){
   if (psqiSegmentedTime == "Not during the past month") {
     psqiSegmentedTime = 4;
-  } else if (psqiSegmentedTime == "Less than once a week ") {
+  } else if (psqiSegmentedTime == "Less than once a week") {
     psqiSegmentedTime = 3;
   } else if (psqiSegmentedTime == "Once or twice a week") {
     psqiSegmentedTime = 2;
@@ -159,7 +159,7 @@ var psqiBathroom = "";
 function psqiBathroomFunc(){
   if (psqiBathroom == "Not during the past month") {
     psqiBathroom = 4;
-  } else if (psqiBathroom == "Less than once a week ") {
+  } else if (psqiBathroom == "Less than once a week") {
     psqiBathroom = 3;
   } else if (psqiBathroom == "Once or twice a week") {
     psqiBathroom = 2;
@@ -173,7 +173,7 @@ var psqiBreathe = "";
 function psqiBreatheFunc(){
   if (psqiBreathe == "Not during the past month") {
     psqiBreathe = 4;
-  } else if (psqiBreathe == "Less than once a week ") {
+  } else if (psqiBreathe == "Less than once a week") {
     psqiBreathe = 3;
   } else if (psqiBreathe == "Once or twice a week") {
     psqiBreathe = 2;
@@ -187,7 +187,7 @@ var psqiSnore = "";
 function psqiSnoreFunc(){
   if (psqiSnore == "Not during the past month") {
     psqiSnore = 4;
-  } else if (psqiSnore == "Less than once a week ") {
+  } else if (psqiSnore == "Less than once a week") {
     psqiSnore = 3;
   } else if (psqiSnore == "Once or twice a week") {
     psqiSnore = 2;
@@ -201,7 +201,7 @@ var psqiCold = "";
 function psqiColdFunc(){
   if (psqiCold == "Not during the past month") {
     psqiCold = 4;
-  } else if (psqiCold == "Less than once a week ") {
+  } else if (psqiCold == "Less than once a week") {
     psqiCold = 3;
   } else if (psqiCold == "Once or twice a week") {
     psqiCold = 2;
@@ -211,7 +211,131 @@ function psqiColdFunc(){
     psqiCold = 0;
 }} psqiColdFunc();
 
-// Hello
+var psqiHot = "";
+function psqiHotFunc(){
+  if (psqiHot == "Not during the past month") {
+    psqiHot = 4;
+  } else if (psqiHot == "Less than once a week") {
+    psqiHot = 3;
+  } else if (psqiHot == "Once or twice a week") {
+    psqiHot = 2;
+  } else if (psqiHot == "Three or more times a week") {
+    psqiHot = 1;
+  } else if (psqiHot == "Every single day") {
+    psqiHot = 0;
+}} psqiHotFunc();
+
+var psqiDreams = "";
+function psqiDreamsFunc(){
+  if (psqiDreams == "Not during the past month") {
+    psqiDreams = 4;
+  } else if (psqiDreams == "Less than once a week") {
+    psqiDreams = 3;
+  } else if (psqiDreams == "Once or twice a week") {
+    psqiDreams = 2;
+  } else if (psqiDreams == "Three or more times a week") {
+    psqiDreams = 1;
+  } else if (psqiDreams == "Every single day") {
+    psqiDreams = 0;
+}} psqiDreamsFunc();
+
+var psqiPain = "";
+function psqiPainFunc(){
+  if (psqiPain == "Not during the past month") {
+    psqiPain = 4;
+  } else if (psqiPain == "Less than once a week") {
+    psqiPain = 3;
+  } else if (psqiPain == "Once or twice a week") {
+    psqiPain = 2;
+  } else if (psqiPain == "Three or more times a week") {
+    psqiPain = 1;
+  } else if (psqiPain == "Every single day") {
+    psqiPain = 0;
+}} psqiPainFunc();
+
+var psqiMedicating = "";
+function psqiMedicatingFunc(){
+  if (psqiMedicating == "Not during the past month") {
+    psqiMedicating = 4;
+  } else if (psqiMedicating == "Less than once a week") {
+    psqiMedicating = 3;
+  } else if (psqiMedicating == "Once or twice a week") {
+    psqiMedicating = 2;
+  } else if (psqiMedicating == "Three or more times a week") {
+    psqiMedicating = 1;
+  } else if (psqiMedicating == "Every single day") {
+    psqiMedicating = 0;
+}} psqiMedicatingFunc();
+
+var psqiDaytimeSleepy = "";
+function psqiDaytimeSleepyFunc(){
+  if (psqiDaytimeSleepy == "Not during the past month") {
+    psqiDaytimeSleepy = 4;
+  } else if (psqiDaytimeSleepy == "Less than once a week") {
+    psqiDaytimeSleepy = 3;
+  } else if (psqiDaytimeSleepy == "Once or twice a week") {
+    psqiDaytimeSleepy = 2;
+  } else if (psqiDaytimeSleepy == "Three or more times a week") {
+    psqiDaytimeSleepy = 1;
+  } else if (psqiDaytimeSleepy == "Every single day") {
+    psqiDaytimeSleepy = 0;
+}} psqiDaytimeSleepyFunc();
+
+var psqiEnthusiasm = "";
+function psqiEnthusiasmFunc(){
+  if (psqiEnthusiasm == "Not during the past month") {
+    psqiEnthusiasm = 4;
+  } else if (psqiEnthusiasm == "Less than once a week") {
+    psqiEnthusiasm = 3;
+  } else if (psqiEnthusiasm == "Once or twice a week") {
+    psqiEnthusiasm = 2;
+  } else if (psqiEnthusiasm == "Three or more times a week") {
+    psqiEnthusiasm = 1;
+  } else if (psqiEnthusiasm == "Every single day") {
+    psqiEnthusiasm = 0;
+}} psqiEnthusiasmFunc();
+
+var psqiQualitySubjective = "";
+function psqiQualitySubjectiveFunc(){
+  if (psqiQualitySubjective == "Very good") {
+    psqiQualitySubjective = 4;
+  } else if (psqiQualitySubjective == "Fairly good") {
+    psqiQualitySubjective = 3;
+  } else if (psqiQualitySubjective == "Fairly bad") {
+    psqiQualitySubjective = 2;
+  } else if (psqiQualitySubjective == "Very bad") {
+    psqiQualitySubjective = 1;
+  } else if (psqiQualitySubjective == "Terrible") {
+    psqiQualitySubjective = 0;
+}} psqiQualitySubjectiveFunc();
+
+var psqiQualitySubjective = "";
+function psqiQualitySubjectiveFunc(){
+  if (psqiQualitySubjective == "Very good") {
+    psqiQualitySubjective = 4;
+  } else if (psqiQualitySubjective == "Fairly good") {
+    psqiQualitySubjective = 3;
+  } else if (psqiQualitySubjective == "Fairly bad") {
+    psqiQualitySubjective = 2;
+  } else if (psqiQualitySubjective == "Very bad") {
+    psqiQualitySubjective = 1;
+  } else if (psqiQualitySubjective == "Terrible") {
+    psqiQualitySubjective = 0;
+}} psqiQualitySubjectiveFunc();
+
+var psqiOther = "";
+function psqiOtherFunc(){
+  if (psqiOther == "Not applicable") {
+    psqiOther = 4;
+  } else if (psqiOther == "Less than once a week") {
+    psqiOther = 3;
+  } else if (psqiOther == "Once or twice a week") {
+    psqiOther = 2;
+  } else if (psqiOther == "Three or more times a week") {
+    psqiOther = 1;
+  } else if (psqiOther == "Every single day") {
+    psqiOther = 0;
+}} psqiOtherFunc();
 
 // chronoType raw inputs
 var chronoTypeMorning = Number(inputData.chronoTypeMorning);
